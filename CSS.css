@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.header{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    cursor: pointer;
+    border: 1px #ccc solid;
+}
+
+.header li{
+    float: left;
+    width: 4rem;
+}
+
+.header > li{
+    margin: 1rem;
+    
+}
+.header_child > li:hover{
+    background-color: #ccc;
+}
+
+.header li:hover  .header_child  li{
+    display: list-item;
+}
+
+.header_child > li{
+    list-style-type: none;
+    display: none;
+    width: 97%;
+    margin: 0.5rem;
+}
+
+
+
